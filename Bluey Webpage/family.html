@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn about Bluey, the Australian Blue Heeler puppy, and her adventures with her family in Brisbane.">
+        <title>Bluey's Family</title>
+        <!-- style sheet -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/bluey-logo.png" alt="Bluey Logo" style="width: 250px; height: auto;">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-button">Home</a>
+                <a href="family.html" class="nav-button">Family</a>
+            </nav>
+        </header>
+
+        <div class="container"> <!-- Centered content wrapper -->
+            <main class="family">
+                <div class="flex">
+                    <section class="bluey-family">
+                        <h2>Bluey's Family</h2>
+                        <p>Bluey lives with her family in Brisbane, Australia. Her family includes:</p>
+                    
+                        <div class="family-grid">
+                            <div class="family-member">
+                                <img src="images/Bandit.png" alt="Bandit">
+                                <h3>Bandit</h3>
+                                <p>Bluey's dad, a playful and loving father who enjoys spending time with his daughters.</p>
+                            </div>
+                    
+                            <div class="family-member">
+                                <img src="images/Chilli.png" alt="Chilli">
+                                <h3>Chilli</h3>
+                                <p>Bluey's mum, a caring and supportive mother who balances work and family life.</p>
+                            </div>
+                    
+                            <div class="family-member">
+                                <img src="images/Bluey.png" alt="Bluey">
+                                <h3>Bluey</h3>
+                                <p>The main character, a 6-year-old Blue Heeler puppy who loves to play and explore.</p>
+                            </div>
+                    
+                            <div class="family-member">
+                                <img src="images/bingo.png" alt="Bingo">
+                                <h3>Bingo</h3>
+                                <p>Bluey's younger sister, who is often seen playing alongside Bluey in their adventures.</p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <p>All information and photos gathered from <a href="https://www.bluey.tv/">Bluey.tv</a></p>
+            <p>Website created for educational purposes only.</p>
+        </footer>
+
+        <div id="modal" style="display: none;">
+            <div id="modal-content"></div>
+            <button id="close-modal">Close</button>
+        </div>
+        
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
